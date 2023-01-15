@@ -4,8 +4,8 @@ from youtube_transcript_api.formatters import TextFormatter
 from docx import Document
 
 # List of YouTube video URLs
-video_urls = ['https://www.youtube.com/watch?v=VPZD_aij8H0', 
-              'https://www.youtube.com/watch?v=A7XvTkzsvY8']
+video_urls = ['https://www.youtube.com/watch?v=VPZD_aij8H0', # has English subs provided 
+              'https://www.youtube.com/watch?v=A7XvTkzsvY8'] # has auto generated subs in Ukr
 
 # Create a new Word document
 document = Document()
